@@ -1,5 +1,6 @@
 html{
   background: black;
+  height: 8000px;
 }
 body {
   margin: 0 auto;
@@ -8,80 +9,109 @@ body {
   font-family: 'Anonymous Pro';
   background-color: #DFE9DD;
   color: #000000;
-}
-.main{
-  position: relative;
+height: 8000px;
 }
 
+.text1,.text3,.text4{
+  font-size: 36px;
+  line-height: 120%;
+}
+.text2,.text5{
+  font-size: 30px;
+  line-height: 120%;
+}
 .text1{
-  padding-top: 113px;
-  padding-left: 35px;
-  font-size: 36px;
-}
-
-.img2{
- position: absolute;
- right: 7px;
- top: 1615px;
-}
-
-.img3{
-  padding-left: 35px;
-  padding-top: 50px;
-  }
-.text2{
-      font-size: 24px;
-      position:absolute;
-    top: 2745px;
-      right: 100px;
-  }
-  .img5{
-    position: absolute;
-    top: 4900px;
-    right: 35px;
-  }
-  .text3{
-  padding-top: 100px;
-  padding-left: 40px;
-  font-size: 36px;
-  }
-  .img6{
-    position: absolute;
-    top: 5400px;
-    right: 190px;
-  }
-  .text4{
-    padding-top: 850px;
-    padding-left: 193px;
-    font-size: 36px;
-  }
-  .img7{
-  padding-top:80px;
-    padding-left: 40px;
-}
-  .text5{
-    position: absolute;
-    top:6705px;
-    left: 550px;
-    font-size: 24px;
-  }
-  .img8 {
-    padding-top: 50px;
-  padding-left: 104px;
-}
-.img9{
   padding-top: 40px;
-  padding-right: 35px;
+  padding-left: 35px;
 }
-.text6{
-  position: absolute;
-  top:8050px;
-  left: 420px;
-  font-size: 48px;
+.table{
+  position: relative;
+  left: 470px;
+  bottom: 840px;
 }
-.text7{
-  position: absolute;
-  top:8175px;
-  left: 630px;
-  font-size: 36px;
+.windows1{
+  position: relative;
+  bottom: 150px;
+}
+.pic1{
+  position: relative;
+  bottom: 350px;
+  left: 35px;
+}
+.pic2{
+  position: relative;
+  bottom: 900px;
+  left: 200px;
+}
+.wind1{
+  position: relative;
+  bottom: 1100px;
+  left: 530px;
+}
+.text2{
+  position: relative;
+  bottom: 1455px;
+  left: 560px;
+}
+.error{
+  position: relative;
+  bottom:1500px;
+}
+.text3{
+  position: relative;
+  bottom: 1600px;
+  left: 35px;
+}
+.mac{
+  position: relative;
+  bottom: 1550px;
+  left: 35px;
+}
+.text4{
+  position: relative;
+  bottom: 1500px;
+  left: 35px;
+}
+.paint{
+  position: relative;
+  bottom: 1450px;
+  left: 120px;
+}
+.pic3{
+position:relative;
+bottom: 1350px;
+left: 35px;
+}
+.pic4{
+position:relative;
+bottom: 1450px;
+left: 80px;
+}
+.wind2{
+  position: relative;
+  bottom: 2000px;
+  left: 525px;
+}
+.text5{
+  position: relative;
+  bottom:2330px;
+  left:555px;
+}
+.passport{
+  position: relative;
+  bottom: 2700px;
+  left: 550px;
+}
+.badge{
+  position: relative;
+  bottom:2030px;
+  left: 120px;
+}
+.docs{
+  position: relative;
+  top: 40px;
+}
+.end{
+  position: relative;
+  bottom: 2700px;
 }

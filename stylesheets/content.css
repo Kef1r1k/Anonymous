@@ -1,6 +1,6 @@
 html{
   background: black;
-  height: 8000px;
+  width: 100%;
 }
 body {
   margin: 0 auto;
@@ -9,10 +9,9 @@ body {
   font-family: 'Anonymous Pro';
   background-color: #DFE9DD;
   color: #000000;
-height: 8000px;
 }
 
-.text1,.text3,.text4{
+.text3,.text4,.text6,.text7{
   font-size: 36px;
   line-height: 120%;
 }
@@ -21,97 +20,108 @@ height: 8000px;
   line-height: 120%;
 }
 .text1{
+  font-size: 36px;
+  line-height: 100%;
   padding-top: 40px;
   padding-left: 35px;
+  width: 500px;
+}
+.box{
+  position: relative;
 }
 .table{
-  position: relative;
-  left: 470px;
-  bottom: 840px;
+  position: absolute;
+  right:35px;
+  bottom: 80px;
 }
 .windows1{
   position: relative;
-  bottom: 150px;
+  bottom: 100px;
+  height: 800px;
 }
+
 .pic1{
-  position: relative;
-  bottom: 350px;
-  left: 35px;
+padding-top:350px;
+padding-left: 35px;
 }
+
 .pic2{
   position: relative;
-  bottom: 900px;
   left: 200px;
+  bottom: 500px;
 }
 .wind1{
-  position: relative;
-  bottom: 1100px;
+position: relative;
+  bottom: 700px;
   left: 530px;
 }
 .text2{
-  position: relative;
-  bottom: 1455px;
+position: absolute;
+  bottom: 70px;
   left: 560px;
 }
-.error{
-  position: relative;
-  bottom:1500px;
-}
 .text3{
-  position: relative;
-  bottom: 1600px;
-  left: 35px;
+  padding-left: 35px;
 }
 .mac{
-  position: relative;
-  bottom: 1550px;
-  left: 35px;
+padding-left: 35px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 .text4{
-  position: relative;
-  bottom: 1500px;
-  left: 35px;
+  padding-left: 35px;
+  padding-bottom: 50px;
+
 }
 .paint{
-  position: relative;
-  bottom: 1450px;
-  left: 120px;
+  padding-left: 120px;
 }
+
 .pic3{
-position:relative;
-bottom: 1350px;
-left: 35px;
+padding-left: 35px;
+padding-top: 100px;
 }
 .pic4{
 position:relative;
-bottom: 1450px;
 left: 80px;
+bottom: 80px;
 }
+
 .wind2{
   position: relative;
-  bottom: 2000px;
   left: 525px;
+  bottom: 630px;
 }
 .text5{
+  position: absolute;
+  bottom:140px;
+  right: 100px;
+}
+.windows2{
   position: relative;
-  bottom:2330px;
-  left:555px;
+  height: 700px;
 }
 .passport{
   position: relative;
-  bottom: 2700px;
-  left: 550px;
+  left: 510px;
+  bottom: 130px;
 }
 .badge{
   position: relative;
-  bottom:2030px;
+  bottom:500px;
   left: 120px;
 }
 .docs{
-  position: relative;
-  top: 40px;
+  height: 600px;
 }
 .end{
+  padding-top: 70px;
+}
+.text6{
   position: relative;
-  bottom: 2700px;
+  left: 480px;
+  bottom: 350px;
+}
+.endgr{
+  height: 550px;
 }
